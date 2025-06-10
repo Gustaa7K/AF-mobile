@@ -21,12 +21,12 @@ Aplicativo Android desenvolvido com Java que permite aos usuários adicionarem, 
 
 ## 📂 Estrutura do Projeto
 
-── activities/           # Telas principais (Login, Cadastro, Dashboard, etc.)
-── models/               # Modelos como Livro.java
-── adapters/             # Adaptadores para RecyclerView
-── utils/                # Classes utilitárias
-── AndroidManifest.xml
-── build.gradle
+- activities/           # Telas principais (Login, Cadastro, Dashboard, etc.)
+- models/               # Modelos como Livro.java
+- adapters/             # Adaptadores para RecyclerView
+- utils/                # Classes utilitárias
+- AndroidManifest.xml
+- build.gradle
 
 ## 🛠️ Configuração do Firebase
 
