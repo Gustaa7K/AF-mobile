@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/azulProfundo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título -->
+        <TextView
+            android:text="Resumo de Leitura"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/branco"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Total de livros -->
+        <TextView
+            android:id="@+id/tvTotalLivros"
+            android:text="Livros lidos: 0"
+            android:textColor="@color/branco"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Barra de progresso: leitura -->
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/pbTotalLivros"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:progress="0"
+            android:max="100"
+            android:progressTint="@color/branco"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Média de notas -->
+        <TextView
+            android:id="@+id/tvMediaNotas"
+            android:text="Média de notas: 0.0"
+            android:textColor="@color/branco"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/pbMediaNotas"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:progress="0"
+            android:max="50"
+            android:progressTint="@color/branco"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Favoritos -->
+        <TextView
+            android:id="@+id/tvTotalFavoritos"
+            android:text="Favoritos: 0"
+            android:textColor="@color/branco"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/pbFavoritos"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:progress="0"
+            android:max="100"
+            android:progressTint="@android:color/holo_orange_light"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>
